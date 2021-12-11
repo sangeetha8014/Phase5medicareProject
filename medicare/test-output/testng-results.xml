@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="106272" started-at="2021-12-11T15:22:13 UTC" finished-at="2021-12-11T15:23:59 UTC">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="106272" started-at="2021-12-11T15:22:13 UTC" finished-at="2021-12-11T15:23:59 UTC">
+      <class name="LoginpageTsuites.pageObjectTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:LoginpageTsuites.pageObjectTest@7dc222ae]" name="setup" is-config="true" duration-ms="2438" started-at="2021-12-11T15:22:13 UTC" finished-at="2021-12-11T15:22:15 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateHome_Pg()[pri:0, instance:LoginpageTsuites.pageObjectTest@7dc222ae]" name="validateHome_Pg" duration-ms="3093" started-at="2021-12-11T15:23:31 UTC" finished-at="2021-12-11T15:23:34 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHome_Pg -->
+        <test-method status="PASS" signature="validateContactPg()[pri:1, instance:LoginpageTsuites.pageObjectTest@7dc222ae]" name="validateContactPg" duration-ms="3184" started-at="2021-12-11T15:23:34 UTC" finished-at="2021-12-11T15:23:38 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactPg -->
+        <test-method status="PASS" signature="validateAboutPg()[pri:2, instance:LoginpageTsuites.pageObjectTest@7dc222ae]" name="validateAboutPg" duration-ms="4152" started-at="2021-12-11T15:23:38 UTC" finished-at="2021-12-11T15:23:42 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAboutPg -->
+        <test-method status="PASS" signature="validateLoginPg()[pri:3, instance:LoginpageTsuites.pageObjectTest@7dc222ae]" name="validateLoginPg" duration-ms="4295" started-at="2021-12-11T15:23:42 UTC" finished-at="2021-12-11T15:23:46 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPg -->
+        <test-method status="PASS" signature="validateSignupPg()[pri:4, instance:LoginpageTsuites.pageObjectTest@7dc222ae]" name="validateSignupPg" duration-ms="6338" started-at="2021-12-11T15:23:46 UTC" finished-at="2021-12-11T15:23:52 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignupPg -->
+        <test-method status="PASS" signature="validateProductPg()[pri:5, instance:LoginpageTsuites.pageObjectTest@7dc222ae]" name="validateProductPg" duration-ms="6348" started-at="2021-12-11T15:23:52 UTC" finished-at="2021-12-11T15:23:59 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductPg -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:LoginpageTsuites.pageObjectTest@7dc222ae]" name="TearDown" is-config="true" duration-ms="77" started-at="2021-12-11T15:23:59 UTC" finished-at="2021-12-11T15:23:59 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- LoginpageTsuites.pageObjectTest -->
+      <class name="LoginpageTsuites.UserLoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:LoginpageTsuites.UserLoginTest@2f8f5f62]" name="setup" is-config="true" duration-ms="3614" started-at="2021-12-11T15:22:59 UTC" finished-at="2021-12-11T15:23:02 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:LoginpageTsuites.UserLoginTest@2f8f5f62]" name="Login" duration-ms="29067" started-at="2021-12-11T15:23:02 UTC" finished-at="2021-12-11T15:23:31 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:LoginpageTsuites.UserLoginTest@2f8f5f62]" name="teardown" is-config="true" duration-ms="0" started-at="2021-12-11T15:23:31 UTC" finished-at="2021-12-11T15:23:31 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- LoginpageTsuites.UserLoginTest -->
+      <class name="LoginpageTsuites.AdminLoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:LoginpageTsuites.AdminLoginTest@2641e737]" name="setup" is-config="true" duration-ms="3418" started-at="2021-12-11T15:22:15 UTC" finished-at="2021-12-11T15:22:18 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AdminLoginTest()[pri:0, instance:LoginpageTsuites.AdminLoginTest@2641e737]" name="AdminLoginTest" duration-ms="40122" started-at="2021-12-11T15:22:18 UTC" finished-at="2021-12-11T15:22:59 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLoginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:LoginpageTsuites.AdminLoginTest@2641e737]" name="teardown" is-config="true" duration-ms="1" started-at="2021-12-11T15:22:59 UTC" finished-at="2021-12-11T15:22:59 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- LoginpageTsuites.AdminLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
