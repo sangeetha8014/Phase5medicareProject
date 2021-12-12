@@ -1,0 +1,222 @@
+{
+	"id": "cca6ab90-bee1-45d5-acaf-d6b348b9e88e",
+	"name": "medicareproject",
+	"timestamp": "2021-12-11T16:12:09.276Z",
+	"collection_id": "a8c1e2c0-f392-4d5b-939d-5e1ff7f6bce9",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 10,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "12f2ba82-4f9c-43e6-b826-293b6081f3bc",
+			"name": "AdmnLoginpage",
+			"url": "http://localhost:8080/medicare/login",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f87fb6de-c40c-4258-ad9e-0165bf67a974",
+			"name": "LoginPage",
+			"url": "http://localhost:8080/medicare/login",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "cffb91af-51e7-4aa9-aaa0-ab8c5f111f84",
+			"name": "AboutPage",
+			"url": "http://localhost:8080/medicare/about",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "cc4363ae-16a9-4b68-914d-61e065aa87b7",
+			"name": "ViewProductpage",
+			"url": "http://localhost:8080/medicare/show/all/products?Name=Paracetamol",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "6884d88b-0e17-46f7-9ac4-b8033acb02b4",
+			"name": "Homepage",
+			"url": "http://localhost:8080/medicare/home",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d22efddd-ee2e-429f-bd34-ca00be837dd4",
+			"name": "Contact Page",
+			"url": "http://localhost:8080/medicare/contact",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 57,
+	"collection": {
+		"requests": [
+			{
+				"id": "12f2ba82-4f9c-43e6-b826-293b6081f3bc",
+				"method": "GET"
+			},
+			{
+				"id": "f87fb6de-c40c-4258-ad9e-0165bf67a974",
+				"method": "GET"
+			},
+			{
+				"id": "cffb91af-51e7-4aa9-aaa0-ab8c5f111f84",
+				"method": "GET"
+			},
+			{
+				"id": "cc4363ae-16a9-4b68-914d-61e065aa87b7",
+				"method": "GET"
+			},
+			{
+				"id": "6884d88b-0e17-46f7-9ac4-b8033acb02b4",
+				"method": "GET"
+			},
+			{
+				"id": "d22efddd-ee2e-429f-bd34-ca00be837dd4",
+				"method": "GET"
+			}
+		]
+	}
+}
